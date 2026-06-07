@@ -1,18 +1,8 @@
-### Nama Repository: `JaringanKomputer-Contoh-Portofolio`
+### Nama Repository: `JaringanKomputer-Portofolio`
 
-### Deskripsi (Description):
-```
-Contoh portofolio mata kuliah Jaringan Komputer - referensi untuk mahasiswa dalam membuat repository portofolio
-```
+## 📄 FILE 1: README.md (JaringanKomputer-Portofolio)
 
----
-
-## 📄 FILE 1: README.md (Halaman Utama Repository Contoh)
-
-File ini akan menjadi halaman depan repository contoh Anda. Mahasiswa akan melihat ini sebagai panduan.
-
-```markdown
-# JaringanKomputer-Contoh-Portofolio
+# JaringanKomputer-Portofolio
 
 ## 👤 Informasi Dosen
 - **Nama:** Putu Samuel Prihatmajaya, M.Kom
@@ -21,7 +11,7 @@ File ini akan menjadi halaman depan repository contoh Anda. Mahasiswa akan melih
 - **Mata Kuliah:** Jaringan Komputer
 
 ## 📚 Tentang Repository Ini
-Repository ini adalah **contoh portofolio** untuk mata kuliah **Jaringan Komputer**.
+Repository ini adalah **portofolio** untuk mata kuliah **Jaringan Komputer**.
 
 Mahasiswa dapat melihat repository ini sebagai **referensi** dalam membuat portofolio GitHub mereka sendiri.
 
@@ -37,7 +27,7 @@ Mahasiswa dapat melihat repository ini sebagai **referensi** dalam membuat porto
 
 ## 📂 Struktur Folder yang Direkomendasikan
 
-```
+
 JaringanKomputer-Portofolio/
 ├── README.md                      # Halaman depan (wajib!)
 │
@@ -74,7 +64,6 @@ JaringanKomputer-Portofolio/
 │
 └── UTS_UAS/                       # Jawaban ujian
     └── README.md
-```
 
 ## 📋 Instruksi untuk Mahasiswa
 
@@ -83,18 +72,17 @@ JaringanKomputer-Portofolio/
 1. **Buat akun GitHub** (jika belum punya) di [github.com](https://github.com)
 
 2. **Buat repository baru** dengan nama:
-   ```
+
    JaringanKomputer-Portofolio
-   ```
 
 3. **Pilih pengaturan:**
    - ✅ Public (agar bisa dilihat industri)
    - ✅ Add a README file
 
 4. **Isi description:**
-   ```
+   
    Portofolio mata kuliah Jaringan Komputer - semester 4
-   ```
+   
 
 5. **Buat struktur folder** seperti contoh di atas
 
@@ -124,19 +112,11 @@ JaringanKomputer-Portofolio/
 - **Email:** [email dosen]
 - **Google Classroom:** [kode kelas]
 
----
-
-*Repository contoh untuk mata kuliah Jaringan Komputer*  
-*STIKOM Yos Sudarso Purwokerto - 2026*
-```
-
----
-
-## 📄 FILE 2: Contoh README di dalam folder (01-Pengenalan-Jaringan/README.md)
+## 📄 FILE 2: README di dalam folder (01-Pengenalan-Jaringan/README.md)
 
 File ini sebagai contoh dokumentasi di dalam sub-folder.
 
-```markdown
+
 # 01 - Pengenalan Jaringan
 
 ## Topik yang Dipelajari
@@ -152,24 +132,23 @@ File ini sebagai contoh dokumentasi di dalam sub-folder.
 | `tugas_subnetting.pdf` | Hasil tugas perhitungan subnetting |
 
 ## Cara Menjalankan Kalkulator Subnetting
-```bash
+
 python3 subnetting_calculator.py
-```
+
 
 ## Hasil Belajar
 Setelah mempelajari topik ini, mahasiswa diharapkan mampu:
 1. Menjelaskan fungsi masing-masing layer OSI
 2. Menghitung subnet mask, network ID, dan broadcast address
 3. Merancang skema IP addressing untuk jaringan sederhana
-```
 
----
+
+
 
 ## 📄 FILE 3: Contoh Kode (subnetting_calculator.py)
 
 Simpan di folder `01-Pengenalan-Jaringan/`
 
-```python
 #!/usr/bin/env python3
 """
 SUBNETTING CALCULATOR
@@ -247,7 +226,6 @@ if __name__ == "__main__":
     mask = input("Masukkan Subnet Mask (contoh: 255.255.255.0 atau /24): ")
     
     subnetting_calculator(ip, mask)
-```
 
 ---
 
@@ -255,7 +233,7 @@ if __name__ == "__main__":
 
 Simpan di folder `02-VLAN/`
 
-```txt
+
 ========================================
 KONFIGURASI VLAN PADA SWITCH CISCO
 ========================================
@@ -320,7 +298,7 @@ HASIL VERIFIKASI
 VLAN 10 (SALES) - Port: Fa0/1, Fa0/3
 VLAN 20 (ENGINEERING) - Port: Fa0/2, Fa0/4
 Trunk aktif di port Fa0/24 dengan allowed VLAN 10,20
-```
+
 
 ---
 
@@ -328,7 +306,7 @@ Trunk aktif di port Fa0/24 dengan allowed VLAN 10,20
 
 Simpan di folder `09-Monitoring/`
 
-```python
+
 #!/usr/bin/env python3
 """
 PING MONITOR
@@ -432,7 +410,7 @@ if __name__ == "__main__":
         target = sys.argv[1]
     
     monitor_ping(target, interval=5, duration=30)
-```
+
 
 ---
 
@@ -440,7 +418,6 @@ if __name__ == "__main__":
 
 Setelah semua file dibuat, struktur repository Anda akan terlihat seperti ini:
 
-```
 JaringanKomputer-Contoh-Portofolio/
 │
 ├── README.md                                 # Halaman utama (sudah dibuat)
@@ -475,7 +452,6 @@ JaringanKomputer-Contoh-Portofolio/
 │
 └── UTS_UAS/
     └── README.md                             # Contoh dokumentasi ujian
-```
 
 ---
 
